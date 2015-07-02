@@ -1,0 +1,193 @@
+	@font-face {
+    font-family: 'piximisaregular';
+    src: url('piximisa-webfont.eot');
+    src: url('piximisa-webfont.eot?#iefix') format('embedded-opentype'),
+         url('piximisa-webfont.woff') format('woff'),
+         url('piximisa-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.medida form .box_form .tooltip  {
+	-webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+.medida form .box_form:hover .tooltip {
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+body {
+	background: url('../img/bg.jpg') center center repeat white;
+	color: black;
+	font-size: 1em;
+	line-height: 1.2em;
+	font-family: 'piximisaregular';
+	font-weight: normal;
+    font-style: normal;
+}
+.medida {
+	margin: 50px auto;
+	padding: 20px 0px;
+	width: 850px;
+	background: white;
+	border-radius: 25px;
+	box-shadow: 0px 0px 10px #cecece;
+}
+.medida .logo {
+	margin: 0px auto;
+	display: block;
+	line-height: 0px;
+	font-size: 0px;
+	width: 300px;
+	height: 257px;
+	background: url('../img/logo.png') center center no-repeat;
+}
+.medida h3{
+	font-weight: normal;
+    font-style: normal;
+    padding: 1.5em 0.7em 0.4em 0.7em;
+    line-height: 1em;
+    font-size: 1.4em;
+}
+.medida p {
+	padding: 0em 1em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.medida form {
+	margin: 1em auto;
+	width: 96%;
+	display: table;
+}
+.medida form .row {
+	display: table-row;
+	width: 100%;
+}
+.medida form .row .cell {
+	display: table-cell;
+	vertical-align: top;
+	padding: 0em 2% 1em 2%;
+	width: 46%;
+}
+.medida form label {
+	display: block;
+	line-height: 1em;
+	font-size: 1em;
+	margin: 0em 0em 0.2em 0em;
+}
+.medida form input[type="text"] {
+	line-height: 1em;
+	font-size: 0.8em;
+	color: #818181;
+	border: 1px solid #a7a7a7;
+	border-radius: 5px;
+	box-shadow: inset 0px 0px 10px #cccccc;
+	padding: 0.2em 1em;
+	display: block;
+	width: 92%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.medida form textarea {
+	line-height: 1.2em;
+	font-size: 0.8em;
+	color: #818181;
+	border: 1px solid #a7a7a7;
+	border-radius: 5px;
+	box-shadow: inset 0px 0px 10px #cccccc;
+	padding: 0.2em 1em;
+	display: block;
+	width: 92%;
+	resize: none;
+	height: 5em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.medida form input[type="submit"] {
+	line-height: 1em;
+	font-size: 1em;
+	color: white;
+	background: #24a3ec;
+	border: 1px solid #0a81c5;
+	border-radius: 5px;
+	box-shadow: inset 0px 0px 10px #0a81c5;
+	padding: 0.4em 1em;
+	display: block;
+	font-family: 'piximisaregular';
+	font-weight: normal;
+    font-style: normal;
+    cursor: pointer;
+}
+.medida form .box_form {
+	position: relative;
+}
+.medida form .box_form .tooltip {
+	display: none;
+	opacity: 0;
+	position: absolute;
+	left: 0px;
+	top: 30px;
+	display: block;
+	background: black;
+	color: white;
+	line-height: 1.2em;
+	font-size: 0.7em;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0.5em 1em;
+	border-radius: 8px;
+}
+.medida form .box_form .tooltip span {
+	display: block;
+}
+.medida form .box_form .tooltip div {
+	display: block;
+	font-size: 0em;
+	line-height: 0em;
+	width: 0; 
+	height: 0; 
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid black;
+	position: absolute;
+	top: -8px;
+	left: 20px;
+}
+.medida form .box_form:hover .tooltip {
+	display: block;
+	opacity: 1;
+} 
+.medida form .box_form .item {
+	display: inline-block;
+}
+.minlogo {
+	margin: 50px auto 20px auto;
+	display: block;
+	line-height: 0px;
+	font-size: 0px;
+	width: 400px;
+	height: 343px;
+	background: url('../img/logo.png') center center no-repeat white;
+	border-radius: 50px;
+}
+.min_med {
+	line-height: 1.1em;
+	font-size: 1.8em;
+	text-align: center;
+	width: 420px;
+	margin: 0px auto;
+	color: black;
+}
+.min_med a {
+	float: right;
+	display: block;
+	background: #96d507;
+	color: #5d5d5d;
+	border-radius: 10px;
+	padding: 0.3em 1em;
+	text-decoration: none;
+	margin: 1em 0em 0em 0em;
+}
